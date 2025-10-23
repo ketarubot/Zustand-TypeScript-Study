@@ -2,6 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import DashBoard from "./pages/DashBoard";
 import WholeBookList from "./pages/WholeBookList";
+import Modal from "react-modal";
+
+Modal.setAppElement("#root");
 
 function App() {
   return (
